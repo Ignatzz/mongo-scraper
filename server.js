@@ -27,7 +27,7 @@ app.use(express.static("public"));
 // Database configuration with mongoose
 
 
-mongoose.connect("mongodb://Ignatzz:0Captain!@ds035485.mlab.com:35485/heroku_71v2msd8");
+mongoose.connect("mongodb://Ignatzz:0Captain@ds035485.mlab.com:35485/heroku_71v2msd8");
 
 var db = mongoose.connection;
 
